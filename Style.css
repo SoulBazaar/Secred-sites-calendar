@@ -1,0 +1,109 @@
+ <style>
+       
+        :root {
+            --aged-gold: #E6D5A7;
+            --terracotta: #CC6941;
+            --deep-brown: #4A3B2B;
+            --cream: #F5F0E1;
+            --soft-sand: #D9C7A7;
+            --moon-gray: #8C857B;
+        }
+    
+        body {
+            font-family: 'Montserrat Light', sans-serif;
+            line-height: 1.6;
+            color: var(--deep-brown);
+            background-color: var(--cream);
+            margin: 0;
+            padding: 20px;
+        }
+    
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+    
+        h1, h2 {
+            font-family: 'Cinzel Decorative', serif;
+            color: var(--deep-brown);
+        }
+    
+        .season-header {
+            color: var(--deep-brown);
+            border-left: 3px solid var(--terracotta);
+            padding-left: 15px;
+            margin: 30px 0;
+        }
+    
+        .month-header {
+            font-family: 'Cinzel Decorative', serif;
+            color: var(--deep-brown);
+            margin: 20px 0;
+            padding-left: 20px;
+        }
+    
+        .location-card {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+    
+        .location-name {
+            font-family: 'Cinzel Decorative', serif;
+            font-size: 20px;
+            color: var(--deep-brown);
+            margin-bottom: 15px;
+            border-bottom: 2px solid var(--aged-gold);
+            padding-bottom: 5px;
+        }
+    
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin: 10px 0;
+        }
+    
+        .tag {
+            background: var(--aged-gold);
+            padding: 6px 12px;
+            border-radius: 15px;
+            font-size: 14px;
+            color: var(--deep-brown);
+        }
+    
+        .weather-info {
+            background: var(--cream);
+            padding: 12px;
+            margin: 15px 0;
+            border-radius: 4px;
+            color: var(--deep-brown);
+        }
+    
+        .section-title {
+            color: var(--terracotta);
+            font-family: 'Nunito Sans', sans-serif;
+            font-weight: 600;
+            margin: 15px 0 10px 0;
+        }
+    
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+    
+        li {
+            margin: 8px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+    
+        li:before {
+            content: "•";
+            color: var(--terracotta);
+            position: absolute;
+            left: 0;
+        }
+    </style>
